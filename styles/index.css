@@ -1,45 +1,40 @@
 body.index {
   font-family: 'Josefin Sans', sans-serif;
-  background-image: url("http://wallpapercave.com/wp/SymLMYT.jpg");
+  background-image: url("https://i.imgur.com/vF3TFGw.jpg");
   background-size: cover;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  background-color: #54844a;
+}
 
 
-a:hover {
-  color: #9ADEF5;
+a:hover, .bold-name a:hover {
+  color: #162813;
 }
 
 a {
-  color: #293D8C;
+  color: #beccbb;
+  text-decoration: none;
 }
-
-footer a {
-  color: #F5B19A;
-}
-
 
 .top-buttons li {
   display: inline;
+  float: right;
   font-family: 'Josefin Sans', sans-serif;
-  border-right: 2pt solid #39324b;
-  color: #39324b;
-  margin-right: 8%;
-  margin-left: 8%;
-  padding: 0 25px;
-  font-size: 9pt;
+  color: #beccbb;
+  padding: 0 30px;
+  font-size: 10pt;
 }
 
-main h1{
-  position: absolute;
-  left: 30%;
-  bottom: 40%;
-  text-align: center;
-  font-family: 'Cookie', serif;
-  font-size: 6em;
-  color: #E3E7E8;
-  /*margin: 5%;*/
-
+.bold-name a {
+  font-size: 20px;
+  color: #beccbb;
 }
 
 footer {
@@ -47,23 +42,20 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #efefef;
+  background-color: #54844a;
   text-align: center;
 }
 
 .bottom-buttons li{
   display: inline;
-  font-family: 'Josefin Sans', sans-serif;
-  border-right: 2pt solid #39324b;
-  color: #39324b;
-  margin-right: 8%;
-  margin-left: 8%;
-  padding: 0px 25px;
-  font-size: 9pt;
+  padding: 0 25px;
+  font-size: 24pt;
 }
 
+.bottom-buttons i {
+  color: #beccbb;
+}
 
-
-/*.about {
-
-}*/
+i:hover {
+  color: #162813;
+}
