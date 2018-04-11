@@ -1,13 +1,12 @@
 .container {
   border-style: solid;
-  border-color: white;
+  border-color: #d0e2cc;
   border-radius: 20px;
   margin: 10% 30%;
-  background-color: white;
   opacity: 0.75;
   padding: 1%;
 }
 
 label, h2, p {
-  color: #54844a;
+  color: #d0e2cc;
 }

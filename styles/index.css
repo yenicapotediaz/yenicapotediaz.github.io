@@ -1,8 +1,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-image: url("https://i.imgur.com/vF3TFGw.jpg");
+  background-image: url("https://i.imgur.com/jQDdLsq.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
 nav {
@@ -13,7 +12,7 @@ nav {
   width: 100%;
   padding: 1%;
   padding-bottom: 0;
-  background-color: #325e3b;
+  background-color: #112615;
 }
 
 
@@ -23,13 +22,14 @@ a:hover, .bold-name a:hover {
 
 a {
   color: #beccbb;
+  /* font-family: 'Quicksand'; */
   text-decoration: none;
 }
 
 .top-buttons li {
   display: inline;
   float: right;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand';
   color: #beccbb;
   padding: 0 30px;
   font-size: 12pt;
@@ -37,7 +37,26 @@ a {
 
 .bold-name a {
   font-size: 22px;
-  color: #beccbb;
+  /* color: #beccbb; */
+}
+
+.bold-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 300px; */
+  margin-top: 200px;
+  adding-bottom: 150px;
+  justify-content: flex-end;
+  color: white;
+  font-size: 25px;
+  color: #d0e2cc;
+  font-family: "Quicksand", sans-serif;
+  /* #325e3b; */
+}
+
+p {
+  margin-top: 0px;
 }
 
 footer {
@@ -45,7 +64,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #325e3b;
+  background-color: #112615;
   text-align: center;
 }
 

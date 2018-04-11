@@ -1,12 +1,9 @@
 .about-blurb {
-  border-style: solid;
+  border-style: 1px solid;
   border-color: white;
-  border-radius: 20px;
   margin: 20% 30%;
-  background-color: white;
-  opacity: 0.5;
 }
 
 .blurb-text {
-  color: #54844a;
+  color: #d0e2cc;
 }

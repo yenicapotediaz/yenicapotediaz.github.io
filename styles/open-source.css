@@ -1,20 +1,18 @@
 .projects {
   margin: 5%;
   text-align: center;
-  color: #54844a;
+  color: #d0e2cc;
 }
 
 .project-box {
   display: inline-block;
   border-style: solid;
-  border-color: white;
+  border-color: #d0e2cc;
   border-radius: 20px;
   width: 25%;
-  background-color: white;
-  opacity: 0.5;
   margin: 2%;
 }
 
 h2, p {
-    color: #54844a;
+    color: #d0e2cc;
 }
