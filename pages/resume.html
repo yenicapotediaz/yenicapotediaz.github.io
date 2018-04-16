@@ -4,13 +4,26 @@
   <meta charset="utf-8">
   <title>Yeni Capote Diaz</title>
   <link rel="stylesheet" href="normalize.css">
-  <!-- <link rel="stylesheet" href="../styles/index.css"> -->
+  <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/resume.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Quicksand:400|Prata" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="index">
-  <section id="main">
+  <header>
+    <nav>
+      <ul class="top-buttons">
+        <li class="bold-name" style="float:left"><a href="../index.html">yeni capote diaz</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="community.html">COMMUNITY</a></li>
+        <li><a href="open-source.html">OPEN SOURCE</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="resume-area">
+    <section id="main">
       <header id="title">
         <h1>Yeni Capote Diaz</h1>
         <span class="subtitle">Software Engineer</span>
@@ -31,11 +44,11 @@
             </header>
             <div>
               <ul>
-                <li>Build open-source tools for automating Kubernetes deployments on Amazon Web Services and Google Container Engine using Golang, Ansible, Python, Docker, Bash, Git, GitHub, Gitlab, Jenkins</li>
+                <li>Build open-source tools for automating Kubernetes deployments on AWS and GKE</li>
                 <li>Design and implement cluster management tools for Kubernetes clusters as a product feature</li>
                 <li>Work on components to deploy additional application resources into Kubernetes clusters</li>
               </ul>
-              </div>
+            </div>
           </div>
         </section>
         <section class="blocks">
@@ -46,13 +59,13 @@
           </div>
           <div class="details">
             <header>
-              <h3>Cloud Native Computing Intern</h3>
+              <h3>DevOps Engineer Intern</h3>
               <span class="place">Samsung SDS</span>
               <span class="location">Seattle, WA</span>
             </header>
             <div>
               <ul>
-                <li>Build open-source tools for automating Kubernetes deployments on AWS and GKE using Golang, Ansible, Python, Docker</li>
+                <li>Build open-source tools for automating Kubernetes deployments on AWS and GKE</li>
                 <li>Internship focus project involved designing and implementing node management tools for Kubernetes clusters as a product feature</li>
               </ul>
             </div>
@@ -94,7 +107,7 @@
             </header>
             <div>
               <ul>
-                <li>Non-profit, accredited, online University teaching students courses in Computer Science</li>
+                <li>Non-profit, accredited, online University with courses in Computer Science</li>
                 <li>Took introductory courses on CS Fundamentals, Python and Java</li>
               </ul>
             </div>
@@ -105,11 +118,28 @@
         <h2>Skills</h2>
         <section class="blocks">
           <div class="date">
-          </div>
+            </div>
               <ul>
-                <li>Ruby, Python, Javascript, HTML, CSCS, Golang</li>
+                <li>Ruby, Python, Javascript, HTML, CSS, Golang</li>
                 <li>Ruby on Rails, React.js</li>
-                <li>AWS, GKE, Kubernetes, Docker, Ansible, Heroku, SQL, Git</li>
+                <li>AWS, GKE, Kubernetes, Docker, Ansible, Helm, Heroku, SQL, Linux, Git</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="main-block concise">
+        <h2>Community</h2>
+        <section class="blocks">
+          <div class="date">
+            </div>
+              <ul>
+                <li><b>Women in Tech Regatta 2018 -</b> Speaker</li>
+                <li><b>KubeCon 2017 -</b> Speaker </li>
+                <li><b>Women Who Go Seattle Chapter - </b>Co-organizer</li>
+                <li><b>Ada Developer's Academy - </b>Mentor</li>
+                <li><b>Ada Developer's Academy - </b>TA</li>
+                <li><b>Teams Code - </b>Programming Competition Judge</li>
               </ul>
             </div>
           </div>
@@ -118,9 +148,7 @@
     </section>
     <aside id="sidebar">
       <div class="side-block" id="contact">
-        <h1>
-          Contact Info
-        </h1>
+        <h1>Contact Info</h1>
         <ul>
           <li><i class="fa fa-globe"></i> yenicapotediaz.com</li>
           <li><i class="fa fa-linkedin"></i> linkedin.com/in/yeni-capote-diaz</li>
@@ -129,26 +157,25 @@
         </ul>
       </div>
       <div class="side-block" id="skills">
-        <h1>
-          Open Source Contributions
-        </h1>
-        <h3>Kraken</h3>
-        <ul>
-          <li>Command-line interface for Kraken-lib.</li>
-        </ul>
-        <h3>Kraken-lib</h3>
-        <ul>
-          <li>Orchestration and cluster level management system for Kubernetes.</li>
-        </ul>
-        <h3>Kraken-tools</h3>
-        <ul>
-          <li>The base layer for the Kraken project.</li>
-        </ul>
-        <h3>Kraken-charts</h3>
-        <ul>
-          <li>Helm charts repo for deploying a Kraken cluster with the additional functionality an application may require.</li>
-        </ul>
+        <h1>Open Source Contributions</h1>
+          <h3>Kraken</h3>
+            <ul>
+              <li>Command-line interface for Kraken-lib.</li>
+            </ul>
+          <h3>Kraken-lib</h3>
+            <ul>
+              <li>Orchestration and cluster level management system for Kubernetes.</li>
+            </ul>
+          <h3>Kraken-tools</h3>
+            <ul>
+              <li>The base layer for the Kraken project.</li>
+            </ul>
+          <h3>Kraken-charts</h3>
+            <ul>
+              <li>Helm charts repo for deploying a Kraken cluster with the additional functionality an application may require.</li>
+            </ul>
       </div>
     </aside>
-  </body>
+  </section>
+</body>
 </html>
