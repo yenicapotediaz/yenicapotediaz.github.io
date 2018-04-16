@@ -1,18 +1,24 @@
 .projects {
-  margin: 5%;
   text-align: center;
   color: #d0e2cc;
+  padding-top: 5%;
+}
+
+h1 {
+  padding-top: 5%;
 }
 
 .project-box {
-  display: inline-block;
-  border-style: solid;
-  border-color: #d0e2cc;
-  border-radius: 20px;
-  width: 25%;
-  margin: 2%;
+  padding: 2%;
+  border: 1.5px solid #d0e2cc;
+  border-radius: 10px;
+  width: 400px;
+  margin: 1%;
 }
 
-h2, p {
-    color: #d0e2cc;
+.projects-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
